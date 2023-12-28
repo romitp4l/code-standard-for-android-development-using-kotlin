@@ -1,3 +1,7 @@
+***code-standard-for-android-development-using-kotlin
+-**Following all to be kept in mind
+
+
 - **Search, Write, Sign up, Sign in:**
   - These are the primary actions suggested for users, possibly related to accessing or interacting with the content.
 
