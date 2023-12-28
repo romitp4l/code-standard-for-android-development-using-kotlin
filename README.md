@@ -1,20 +1,19 @@
-***code-standard-for-android-development-using-kotlin
--**Following all to be kept in mind
-
+# Code Standard for Android Development using Kotlin
+### *Following all to be kept in mind*
 
 - **Search, Write, Sign up, Sign in:**
   - These are the primary actions suggested for users, possibly related to accessing or interacting with the content.
 
 - **Best Practices for Clean and Effective Kotlin Coding in Android Development:**
-  - Author: Jaykishan Sewak
-  - Duration: 3 min read
-  - Published on: Aug 12
-  - Source: [GeeksforGeeks](https://www.geeksforgeeks.org/12-best-practices-for-android-development/)
+  - **Author:** Jaykishan Sewak
+  - **Duration:** 3 min read
+  - **Published on:** Aug 12
+  - **Source:** [GeeksforGeeks](https://www.geeksforgeeks.org/12-best-practices-for-android-development/)
 
 - **Essential Kotlin Coding Conventions:**
   1. **Naming Conventions:**
      - Use meaningful camelCase names for variables, functions, and properties.
-     - Example:
+     - *Example:*
        ```kotlin
        val userName: String
        fun calculateTotalPrice(itemList: List<Item>): Double
@@ -22,7 +21,7 @@
 
   2. **Package Names:**
      - Stick to lowercase for package names and follow reverse domain notation.
-     - Example:
+     - *Example:*
        ```kotlin
        package com.example.myapp
        ```
@@ -30,7 +29,7 @@
   3. **Indentation and Formatting:**
      - Maintain consistent indentation style (4 spaces).
      - Proper spacing around operators and elements.
-     - Example:
+     - *Example:*
        ```kotlin
        if (condition) {
          // Code block
@@ -42,7 +41,7 @@
   4. **Class and Interface Naming:**
      - Use PascalCase for class and interface names.
      - Reflect the purpose and responsibility of the class.
-     - Example:
+     - *Example:*
        ```kotlin
        class UserManager
        interface DataProvider
@@ -51,7 +50,7 @@
   5. **Nullable Types and Null Safety:**
      - Use nullable types (`Type?`) for variables that can hold null values.
      - Implement safe calls (`?.`) and the Elvis operator (`?:`) to handle null values.
-     - Example:
+     - *Example:*
        ```kotlin
        val nullableString: String? = null
        val length: Int = nullableString?.length ?: 0
@@ -60,7 +59,7 @@
   6. **Extension Functions:**
      - Leverage extension functions to add functionality to existing classes without modifying their source code.
      - Enhances readability and reusability.
-     - Example:
+     - *Example:*
        ```kotlin
        fun String.isEmailValid(): Boolean {
          // Validation logic
@@ -70,7 +69,7 @@
   7. **Companion Objects:**
      - Use companion objects to create static members and constants associated with a class.
      - Enhance encapsulation and organization.
-     - Example:
+     - *Example:*
        ```kotlin
        class Constants {
          companion object {
@@ -81,7 +80,7 @@
 
   8. **Scope Functions:**
      - Use scope functions like `let`, `apply`, `run`, `also`, and `with` for code readability and structure, especially with complex operations.
-     - Example:
+     - *Example:*
        ```kotlin
        val result = fetchData()
        result?.let {
@@ -92,7 +91,7 @@
   9. **Comments and Documentation:**
      - Provide clear and meaningful comments for intricate logic or algorithms.
      - Utilize KDoc comments for concise documentation of classes, functions, and parameters.
-     - Example:
+     - *Example:*
        ```kotlin
        /**
         * Calculates the area of a rectangle.
@@ -108,7 +107,7 @@
   10. **Enums and Constants:**
       - Use enums for defining a fixed set of related values.
       - Employ constants for values that remain constant throughout the application.
-      - Example:
+      - *Example:*
         ```kotlin
         enum class Color {
           RED, GREEN, BLUE
